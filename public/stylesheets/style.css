@@ -1,0 +1,49 @@
+.sidebar-nav {
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+#author_img {
+  max-height: 250px;
+}
+
+
+#author_search {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px; /* Rounded edges */
+  box-sizing: border-box;
+  margin: 20px 0px;
+}
+
+/* Styling for the author list */
+ul#author_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul#author_list li {
+  margin-bottom: 10px;
+}
+
+ul#author_list li a {
+  text-decoration: none;
+  
+  transition: background-color 0.3s ease-in-out;
+}
+
+ul#author_list li a:hover {
+  text-decoration: underline;
+}
+
+#author_search:focus ~ ul#author_list li {
+  font-weight: 600;
+}
+
+ul#author_list li span {
+  color: #888;
+  font-size: 14px;
+}
